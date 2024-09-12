@@ -2,9 +2,9 @@ This software makes it possible to list up to 200 nft of one collection at the s
 
 Instruction
 
+git clone https://github.com/user_name/opensea-mass-listing-0-2/.git
 
-
-cd opensea-mass-listing
+cd opensea-mass-listing-0-2
 
 
 nano .env
