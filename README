@@ -20,6 +20,8 @@ CONTRACT_NAME=  name your nft collection through - , example: mutant-ape-yacht-c
 
 save and exit
 
+npm install dotenv
+
 chmod -R 777 start.sh
 
 
