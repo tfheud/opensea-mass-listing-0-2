@@ -1,0 +1,34 @@
+This software makes it possible to list up to 200 nft of one collection at the same time on opensea
+
+Instruction
+
+
+
+cd opensea-mass-listing
+
+
+nano .env
+
+RPC = chain rpc your nft, example https://mainnet.base.org
+PRIVATKEY= your wallet privat key with 0x
+PROXY=  your proxy format http://NICK:PASSWORD@IP:PORT
+API=  your opensea API key
+CONTRACT=  your contract nft address
+WALLET=  your wallet address 
+CHAIN=  chain your nft, example arbitrum
+CONTRACT_NAME=  name your nft collection through - , example: mutant-ape-yacht-clu
+
+save and exit
+
+chmod -R 777 start.sh
+
+
+./start.sh
+
+copy nft in wallet: NUMBER
+
+node 0.1.js price total start finish  // change price in eth, total: NUMBER the result of the previous command, start number and finish
+
+example 
+
+node 0.1.js 0.003 200 0 200
