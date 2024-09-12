@@ -24,6 +24,12 @@ npm install dotenv
 
 chmod -R 777 start.sh
 
+nano 0.1.js
+
+change chain: Chain.CHAIN //   example   chain: Chain.Base  or  chain: Chain.Arbitrum
+
+save and exit
+
 
 ./start.sh
 
